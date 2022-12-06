@@ -43,7 +43,7 @@ import Data.Ten.Ap (Ap10(..))
 -- | 'Functor' over arity-1 type constructors.
 --
 -- Whereas 'Functor' maps @a :: Type@ values to @b :: Type@ values, 'Functor10'
--- maps @(m :: k -> Type) a@ values to @m b@ values, parametrically in @a@.
+-- maps @(m :: k -> Type) a@ values to @n a@ values, parametrically in @a@.
 -- That is, the type parameter of 'Functor' has arity 0, and the type
 -- parameter of 'Functor10' has arity 1.
 class Functor10 (f :: (k -> Type) -> Type) where
