@@ -1,4 +1,5 @@
 -- Copyright 2018-2021 Google LLC
+-- Copyright 2023 Andrew Pritchard
 --
 -- Licensed under the Apache License, Version 2.0 (the "License");
 -- you may not use this file except in compliance with the License.
@@ -14,6 +15,7 @@
 
 -- | Provides an analog of 'Applicative' over arity-1 type constructors.
 
+{-# LANGUAGE CPP #-}
 {-# LANGUAGE AllowAmbiguousTypes #-}
 {-# LANGUAGE ConstraintKinds #-}
 {-# LANGUAGE FlexibleContexts #-}
@@ -34,7 +36,9 @@ module Data.Ten.Applicative
          , pure10C, liftA210C, liftA310C
          ) where
 
+#if !MIN_VERSION_base(4, 18, 0)
 import Control.Applicative (liftA2)
+#endif
 import Data.Proxy (Proxy(..))
 import GHC.Generics
          ( Generic1(..)

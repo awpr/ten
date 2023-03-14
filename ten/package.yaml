@@ -34,7 +34,7 @@ license: Apache-2.0
 author: >
   Andrew Pritchard <awpritchard@gmail.com>,
   Reiner Pope <reinerp@google.com>
-copyright: 2018-2021 Google LLC
+copyright: 2018-2021 Google LLC; 2023 Andrew Pritchard
 maintainer: Andrew Pritchard <awpritchard@gmail.com>
 github: awpr/ten/ten
 
