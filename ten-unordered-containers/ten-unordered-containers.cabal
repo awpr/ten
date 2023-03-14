@@ -36,7 +36,7 @@ library
   build-depends:
       base >=4.12 && <4.17
     , hashable >=1.0 && <1.4
-    , portray >=0.1.1 && <0.3
+    , portray >=0.1.1 && <0.4
     , portray-diff ==0.1.*
     , some ==1.0.*
     , ten >=0.1 && <0.3
@@ -54,7 +54,7 @@ test-suite HashMap-test
     , base >=4.12 && <4.17
     , hashable >=1.0 && <1.4
     , lens
-    , portray >=0.1.1 && <0.3
+    , portray >=0.1.1 && <0.4
     , portray-diff ==0.1.*
     , portray-diff-hunit
     , portray-pretty

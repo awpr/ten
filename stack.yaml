@@ -28,5 +28,3 @@ extra-deps:
 
 ghc-options:
   "$locals": -Wall -Werror
-
-allow-newer: true
