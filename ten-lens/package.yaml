@@ -1,4 +1,5 @@
 # Copyright 2018-2021 Google LLC
+# Copyright 2023 Andrew Pritchard
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,10 +22,10 @@ description: |
   <https://hackage.haskell.org/package/ten ten>.  It's in a separate package to
   reduce the dependency weight of @ten@ itself.
 license: Apache-2.0
-author: Andrew Pritchard <awpr@google.com>
+author: Andrew Pritchard <awpritchard@gmail.com>
 copyright: 2018-2021 Google LLC
-maintainer: Andrew Pritchard <awpr@google.com>
-github: google/hs-ten/ten-lens
+maintainer: Andrew Pritchard <awpritchard@gmail.com>
+github: awpr/ten/ten-lens
 
 # Note: this causes CHANGELOG.md to be included in Hackage distributions.
 extra-source-files:

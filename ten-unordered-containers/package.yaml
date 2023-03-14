@@ -1,4 +1,5 @@
 # Copyright 2021 Google LLC
+# Copyright 2023 Andrew Pritchard
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,10 +23,10 @@ description: |
   <https://hackage.haskell.org/package/unordered-containers unordered-containers>.
   Currently only @HashMap10@ is implemented.
 license: Apache-2.0
-author: Andrew Pritchard <awpr@google.com>
+author: Andrew Pritchard <awpritchard@gmail.com>
 copyright: 2020-2021 Google LLC
-maintainer: Andrew Pritchard <awpr@google.com>
-github: google/hs-ten/ten-unordered-containers
+maintainer: Andrew Pritchard <awpritchard@gmail.com>
+github: awpr/ten/ten-unordered-containers
 
 # Note: this causes CHANGELOG.md to be included in Hackage distributions.
 extra-source-files:

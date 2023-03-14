@@ -1,4 +1,5 @@
 # Copyright 2018-2021 Google LLC
+# Copyright 2023 Andrew Pritchard
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -31,11 +32,11 @@ description: |
   of the type parameter in a value.
 license: Apache-2.0
 author: >
-  Andrew Pritchard <awpr@google.com>,
+  Andrew Pritchard <awpritchard@gmail.com>,
   Reiner Pope <reinerp@google.com>
 copyright: 2018-2021 Google LLC
-maintainer: Andrew Pritchard <awpr@google.com>
-github: google/hs-ten/ten
+maintainer: Andrew Pritchard <awpritchard@gmail.com>
+github: awpr/ten/ten
 
 # Note: this causes the extra files to be included in Hackage distributions.
 extra-source-files:
